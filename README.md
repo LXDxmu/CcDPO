@@ -74,7 +74,28 @@ We construct **MultiScope-42k**, a large-scale preference dataset with automatic
 - Fully automated generation pipeline for cost-effective scalability
 
 ## 🚀 Training
-The training code will be available soon.
+```bash
+# Install dependencies
+cd LLaVA-NeXT
+pip install -r requirements.txt
+```
+
+Stage 1:
+```bash
+# set ”DATA_PATH“ to Context-Level DPO dataset.
+> bash scripts/train/CcDPO_stage1.sh
+```
+Stage 2:
+```bash
+# set ”DATA_PATH“ to Needle-Level Language-based DPO dataset.
+> bash scripts/train/CcDPO_stage2.sh
+```
+Stage 3:
+```bash
+# set ”DATA_PATH“ to Needle-Level Vision-based DPO dataset.
+> bash scripts/train/CcDPO_stage3.sh
+```
+
 
 
 ## 🛠️ Evaluation
