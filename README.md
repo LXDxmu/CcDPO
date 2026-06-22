@@ -25,7 +25,7 @@
     <a href=""><strong>Rongrong Ji</strong></a>
   </p>
   📖<a href="https://arxiv.org/pdf/2505.22396">Paper</a> |🏠<a href="https://github.com/LXDxmu/CcDPO">Homepage</a></h3>
-  |🤗<a href="https://huggingface.co/datasets/lxdmac/MultiScope-42k">Dataset</a></h3>
+  |🤗<a href="https://huggingface.co/datasets/lxdmac/MultiScope-42k">MultiScope-42k</a></h3>
 <div align="center"></div>
 <p align="center">
   <p>
@@ -78,6 +78,11 @@ We construct **MultiScope-42k**, a large-scale preference dataset with automatic
 # Install dependencies
 cd LLaVA-NeXT
 pip install -r requirements.txt
+
+# Download the MultiScope-42k dataset
+hf download lxdmac/MultiScope-42k \
+  --repo-type dataset \
+  --local-dir <your local path>
 ```
 
 Stage 1:
