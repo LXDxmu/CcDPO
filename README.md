@@ -25,7 +25,7 @@
     <a href=""><strong>Rongrong Ji</strong></a>
   </p>
   📖<a href="https://arxiv.org/pdf/2505.22396">Paper</a> |🏠<a href="https://github.com/LXDxmu/CcDPO">Homepage</a></h3>
-  |🤗<a href="">Huggingface</a></h3>
+  |🤗<a href="https://huggingface.co/datasets/lxdmac/MultiScope-42k">Dataset</a></h3>
 <div align="center"></div>
 <p align="center">
   <p>
