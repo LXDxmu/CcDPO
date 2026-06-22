@@ -82,7 +82,7 @@ pip install -r requirements.txt
 # Download the MultiScope-42k dataset
 hf download lxdmac/MultiScope-42k \
   --repo-type dataset \
-  --local-dir <your local path>
+  --local-dir “your path”
 ```
 
 Stage 1:
